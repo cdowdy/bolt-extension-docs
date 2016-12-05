@@ -1,4 +1,6 @@
-a boilerplate for Bolt Extensions to also supply a docs page on install.  
+a boilerplate for Bolt Extensions to also supply a docs page on install. For an extension installed in Bolt or for Github Pages. 
+  
+For Github pages you can remove the ``Bolt Admin`` and replace it with your extension name and remove the second header item with `Your Extension Name Docs`
 
 
 in your bolt extension you could have a backend page that provided docs.  
@@ -71,4 +73,9 @@ and have a local docs section for your extension.
 
 **Browser Support**
 
-This follows Bolt's admin interface browser support of IE 10+.
+This follows Bolt's admin interface browser support of IE 10+.  
+
+
+-------------------------------------------------
+
+Example Page:  [Bolt Extensions Docs Example](https://cdowdy.github.io/bolt-extension-docs/docs-base.html)
