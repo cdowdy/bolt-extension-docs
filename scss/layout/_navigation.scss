@@ -16,6 +16,9 @@
   background-color: $bg-color;
   border: 1px solid $boltblue-link-hover;
   border-radius: rem-calc(3);
+  @media screen and (max-width: 50em) {
+    margin-left: 0;
+  }
 }
 
 .ext-docs-navigation-menu--item {
