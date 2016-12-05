@@ -42,10 +42,22 @@ public function connect(Application $app)
   /** @var ControllerCollection $ctr */
   $ctr = $app['controllers_factory'];
 
-  $ctr->get('/docs', [$this, 'callback'])
+  $ctr->get('/docs', [$this, 'docs'])
       ->bind('extension_name_docs');
       
   return $ctr;
+}
+
+// your callback
+public function docs(Application $app)
+ {
+ /*
+  * your logic 
+ */
+
+ $context = ['put_in_template' => $logic];
+ 
+ return $app['twig']->render('backend.docs.html.twig', $context);
 }
 ``` 
 
