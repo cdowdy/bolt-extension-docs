@@ -1,5 +1,5 @@
 .ext-docs-card {
-  max-width: 80%;
+
   //margin: 0 auto;
   //text-align: center;
   background-color: #fafafa;
@@ -8,4 +8,17 @@
   box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
   padding: rem-calc(20);
   margin-bottom: rem-calc(10);
+
+  width: 100%;
+  @media screen and (min-width: 50em) {
+    max-width: 80%;
+  }
+}
+
+
+.ext-docs-card  ul,
+.ext-docs-card ol {
+  @media screen and (min-width: 50em) {
+    margin-left: 1rem;
+  }
 }
