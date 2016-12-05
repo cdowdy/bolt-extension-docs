@@ -18,7 +18,7 @@
 
 .ext-docs-card  ul,
 .ext-docs-card ol {
-  @media screen and (min-width: 50em) {
+  @media screen and (max-width: 50em) {
     margin-left: 1rem;
   }
 }
