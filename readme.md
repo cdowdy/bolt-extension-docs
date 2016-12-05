@@ -50,7 +50,7 @@ public function connect(Application $app)
 
 // your callback
 public function docs(Application $app)
- {
+{
  /*
   * your logic 
  */
