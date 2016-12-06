@@ -1,27 +1,8 @@
 
-
-//.ext-docs-grid {
-//  display: flex;
-//  min-height: 100vh;
-//  flex-direction: column;
-//  padding: rem-calc(15);
-//
-//}
-//
-//.ext-docs-body {
-//  display: flex;
-//  flex: 1;
-//}
-//
-//.ext-docs-content {
-//  background-color: pink;
-//  flex: 1;
-//}
-
 .ext-docs-grid-container {
   @include clearfix;
   width: auto;
-  max-width: 1200px;
+  max-width: $container-width;
   //display: block;
   padding: rem-calc(15);
   margin: 0 auto;
