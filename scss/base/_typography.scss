@@ -7,6 +7,18 @@
 }
 .subheading {
   color: lighten( $font-color, 5);
-  font-size: rem-calc(26);
+  //font-size: rem-calc(26);
   margin-top: 1em;
+}
+
+h2.subheading {
+  font-size: rem-calc(26);
+}
+
+h3.subheading {
+  font-size: rem-calc(22);
+}
+
+h4.subheading {
+  font-size: rem-calc(20);
 }
