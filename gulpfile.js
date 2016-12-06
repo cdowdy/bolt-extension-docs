@@ -7,6 +7,11 @@ var sassPaths = [
     'bower_components/motion-ui/src'
 ];
 
+var pleeeaseOpt = {
+
+    "mqpacker" : true
+};
+
 
 
 // Static Server + watching scss/html files
@@ -34,6 +39,16 @@ gulp.task('sass', function() {
         }))
         .pipe(gulp.dest('css'))
         .pipe(browserSync .stream());
+});
+
+// clear up and remove unused styles
+gulp.task( 'prod', function () {
+    return gulp.src('css/main.css')
+        .pipe($.uncss({
+            html: ['index.html', 'docs-base.html']
+        }))
+        .pipe($.cssnano())
+        .pipe(gulp.dest('./dist'))
 });
 
 gulp.task('default', ['dev'], function() {

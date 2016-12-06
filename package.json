@@ -16,6 +16,9 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.18.2",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-uncss": "^1.0.6",
     "sanitize.css": "^4.1.0"
   }
 }
