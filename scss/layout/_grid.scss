@@ -12,8 +12,8 @@
   width: 100%;
   float: left;
   display: block;
-  padding-left: rem-calc(0);
-  padding-right: rem-calc(0);
+  padding-left: rem-calc(10);
+  padding-right: rem-calc(10);
   @media screen and (min-width: 50em) {
     width: 75%;
     padding-left: rem-calc(15);
